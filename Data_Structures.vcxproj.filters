@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\linearList">
+      <UniqueIdentifier>{c08e849f-de55-482d-87af-e76bd38bf18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\other">
+      <UniqueIdentifier>{4f47871b-2169-4784-ba1d-0275698d4442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tree">
+      <UniqueIdentifier>{3dfdd114-e50d-4823-95fe-9d038af25083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\queue">
+      <UniqueIdentifier>{7f484c10-318a-49d1-b8fb-0b8d49ba4383}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chain.h">
+      <Filter>头文件\linearList</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayList.h">
+      <Filter>头文件\linearList</Filter>
+    </ClInclude>
+    <ClInclude Include="linearList.h">
+      <Filter>头文件\linearList</Filter>
+    </ClInclude>
+    <ClInclude Include="changeLength1D.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
+    <ClInclude Include="doublyLinkedList.h">
+      <Filter>头文件\linearList</Filter>
+    </ClInclude>
+    <ClInclude Include="chainWithBinsort.h">
+      <Filter>头文件\linearList</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>头文件\linearList</Filter>
+    </ClInclude>
+    <ClInclude Include="maxHblt.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayQueue.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryTree.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="booster.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>头文件\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedBinaryTree.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="maxPriorityQueue.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="myExceptions.h">
+      <Filter>头文件\other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataFile.df">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="binaryTreeNode.h">
+      <Filter>头文件\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="maxHblt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
