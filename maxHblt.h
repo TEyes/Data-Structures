@@ -31,6 +31,7 @@ public:
 		theHblt.treeSize = 0;
 	}
 	void output() {  linkedBinaryTree<pair<int, T>>:: postOrder(hbltOutput); cout << endl; }
+	void hbltInOutput() { linkedBinaryTree<pair<int, T>>::inOrder(hbltOutput); cout << endl; }
 private:
 	void meld(binaryTreeNode<pair<int, T>>*&,
 		binaryTreeNode<pair<int, T>>*&);
@@ -64,10 +65,10 @@ void maxHblt<T>::meld(binaryTreeNode<pair<int, T>> *&x,
 	else
 	{
 		if (x->leftChild->element.first < x->rightChild->element.first)
-		{
 			swap(x->leftChild, x->rightChild);
-			x->element.first = x->rightChild->element.first + 1;
-		}
+
+		x->element.first = x->rightChild->element.first + 1;
+		
 	}
 }
 
@@ -86,8 +87,10 @@ void maxHblt<T>::pop()
 		throw queueEmpty();
 	binaryTreeNode<pair<int, T>>* left = this->root->leftChild,
 		* right = this->root->rightChild;
-	delete this->root;
-	meld(left, right);
+	delete this->root;//不写root 导致root被delete之后，还被使用，
+	//导致未加载任何符号错误（或者说是一个断点）
+	this->root = left;
+	meld(this->root, right);
 	this->treeSize--;
 }
 
@@ -96,10 +99,16 @@ void maxHblt<T>::initialize(T* theElement, int theSize)
 {
 	arrayQueue<binaryTreeNode<pair<int, T>>*> q(theSize);
 	linkedBinaryTree<pair<int, T>>:: erase();
-	for (int i = 0; i < theSize - 1; i++)
+	for (int i = 1; i <= theSize; i++)
+	{
+		q.push(new  binaryTreeNode<pair<int,T>> (pair<int, T>(1, theElement[i])));
+	}
+	for (int i = 1; i <= theSize - 1; i++)
 	{
 		binaryTreeNode<pair<int, T>> *b = q.front();
+		q.pop(); //忘记了这个
 		binaryTreeNode<pair<int, T>>* c = q.front();
+		q.pop();//忘记了这个
 		meld(b, c);
 		q.push(b);
 	}

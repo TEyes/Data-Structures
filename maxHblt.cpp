@@ -13,17 +13,23 @@ int main(void)
    cout << "One tree in postorder is" << endl;
    cout << "Tree size is " << h.size() << endl;
    h.output();
+   cout << "one tree in InOrderOutput is" << endl;
+   h.hbltInOutput();
    int b[5] = {0, 2, 6, 4, 9};
 
    j.initialize(b,4);
    cout << "Other tree in postorder is" << endl;
    cout << "Tree size is " << j.size() << endl;
    j.output();
+   cout << "one tree in InOrderOutput is" << endl;
+   j.hbltInOutput();
 
    h.meld(j);
    cout << "After melding, the tree in postorder is" << endl;
    cout << "Tree size is " << h.size() << endl;
    h.output();
+   cout << "one tree in InOrderOutput is" << endl;
+   h.hbltInOutput();
 
    int w = h.top();
    h.pop();
