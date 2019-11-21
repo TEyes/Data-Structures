@@ -136,6 +136,7 @@
     <ClInclude Include="matrix.h" />
     <ClInclude Include="maxHblt.h" />
     <ClInclude Include="maxPriorityQueue.h" />
+    <ClInclude Include="maxWblt.h" />
     <ClInclude Include="myExceptions.h" />
     <ClInclude Include="queue.h" />
   </ItemGroup>
@@ -144,7 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="binaryTreeNode.h" />
-    <ClCompile Include="maxHblt.cpp" />
+    <ClCompile Include="maxWbltTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

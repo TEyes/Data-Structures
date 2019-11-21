@@ -72,6 +72,9 @@
     <ClInclude Include="myExceptions.h">
       <Filter>头文件\other</Filter>
     </ClInclude>
+    <ClInclude Include="maxWblt.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DataFile.df">
@@ -82,7 +85,7 @@
     <ClCompile Include="binaryTreeNode.h">
       <Filter>头文件\tree</Filter>
     </ClCompile>
-    <ClCompile Include="maxHblt.cpp">
+    <ClCompile Include="maxWbltTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
