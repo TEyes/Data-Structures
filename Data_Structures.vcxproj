@@ -135,8 +135,11 @@
     <ClInclude Include="linkedBinaryTree.h" />
     <ClInclude Include="matrix.h" />
     <ClInclude Include="maxHblt.h" />
+    <ClInclude Include="maxHeap.h" />
     <ClInclude Include="maxPriorityQueue.h" />
     <ClInclude Include="maxWblt.h" />
+    <ClInclude Include="minHeap.h" />
+    <ClInclude Include="minPriorityQueue.h" />
     <ClInclude Include="myExceptions.h" />
     <ClInclude Include="queue.h" />
   </ItemGroup>
@@ -145,7 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="binaryTreeNode.h" />
-    <ClCompile Include="maxWbltTest.cpp" />
+    <ClCompile Include="sortFunctions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,989 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\tree">
+      <UniqueIdentifier>{17de7686-e2c5-4955-960b-c988e0ba252d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tree">
+      <UniqueIdentifier>{3c322cec-3cca-4411-93fd-d5c437c1f61e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArrayListMPQ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maxHblt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maxHbltTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maxWbltTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\abcConstRef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\abcException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\abcExceptionChar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\abcFloat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\abcGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\abcInt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\abcRef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\abcTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\adjacencyDigraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\adjacencyGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\adjacencyWDigraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\adjacencyWGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\arrayIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\arrayList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\arrayListNoSTL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\arrayListWithIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\arrayQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\arrayStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\averageSortTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\bestFit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\binarySearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\binsort1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\binsort2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\binsort3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\booster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\bst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\bubbleSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\chain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\chainWithIterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\circularListWithHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\closestPoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\componentLabeling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\compress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\crossings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\currency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\currencyFriend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\currencyNew.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\currencyOverload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\decompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\delete2dArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\derivedArrayStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\derivedArrayStackWithCatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\derivedLinkedStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\diagonalMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\earlyBubbleSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\earlySelectionSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\equivalenceClasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\extendedChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\factorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\fifoBBLoading1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\fifoBBLoading2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\fifoBBLoading3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\firstFit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\greedyLoading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\hanoiRecursive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\hanoiUsingStacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\hashChains.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\hashTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\heapSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\histogram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\horner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\indexOfMax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\inef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\infix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\insert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\insertionSort1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\insertionSort2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\irregularArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\iterativeBTLoading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\iterativeDPKnapsack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\iterativeDPMatrixChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\leastCostBBBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\linkedDigraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\linkedGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\linkedMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\linkedQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\linkedStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\linkedWDigraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\linkedWGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\lowerTriangularMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\lptSchedule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\machineShopSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\make2dArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\make2dArrayNoCatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\makeMatrixData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\matrixAdd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\matrixMultiply1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\matrixMultiply2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\matrixMultiply3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\matrixTranspose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\matrixWithTranspose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\maxHblt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\maxHeap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\maxProfitBBKnapsack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\maxProfitBBLoading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\maze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\mergeSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\minHeap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\minmax1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\minmax2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\minMax3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\noncrossingSubset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\noRecomputationDPKnapsack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\noRecomputationDPMatrixChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\noSwap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\parenthesisMatching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\permutations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\permutationsSTL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\polyEval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\productSTL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\quadraticRoots.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\quickSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\railroadWithNoQueues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\railroadWithQueues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\railroadWithStacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\rank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\rankSort1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\rankSort2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\recursiveBTBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\recursiveBTKnapsack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\recursiveBTLoading1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\recursiveBTLoading2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\recursiveBTLoading3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\recursiveDPKnapsack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\recursiveDPMatrixChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\rSequentialSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\rsum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\rSumCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\select.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\selectionSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\sequentialSearch1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\sequentialSearch2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\skipList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\sortedChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\sparseMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\stringToInt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\sumCount1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\sumCount2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\sumSTL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\switchBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testAllPairs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testBellmanFord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testBipartiteCover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testBTMaxClique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testBTSalesperson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testConnected.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testFindPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testGraphSearchMethods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testKruskal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testLabelComponents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testLeastCostBBSalesperson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testMaxProfitBBMaxClique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testShortestPaths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\testTopologicalOrder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\threeToLong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\tileBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeBFS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeFastSquareMatrixMultiply1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeFastSquareMatrixMultiply2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeInsertionSort1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeInsertionSort2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeInsertionSort3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeInsertionSort4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeMatrixMultiply1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeSparseMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\timeStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\tridiagonalMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\unionFindWithArrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\unionFindWithChains.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\unionFindWithCompaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\unionFindWithWeightingRule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\vectorList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\wireRouter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\codes\codes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\codes\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\binarySearchTree.cpp">
+      <Filter>Source Files\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\unionFindWithTrees.cpp">
+      <Filter>Source Files\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\treeHistogram.cpp">
+      <Filter>Source Files\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\binaryTreeTraversals.cpp">
+      <Filter>Source Files\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\completeWinnerTree.cpp">
+      <Filter>Source Files\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\dBinarySearchTree.cpp">
+      <Filter>Source Files\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\huffmanTree.cpp">
+      <Filter>Source Files\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\linkedBinaryTree.cpp">
+      <Filter>Source Files\tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arrayList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayListMPQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="booster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chainWithBinsort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="changeLength1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="doublyLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linearList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maxHblt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maxPriorityQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maxWblt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myExceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\adjacencyDigraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\adjacencyGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\adjacencyMatrixIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\adjacencyWDigraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\adjacencyWGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\arrayList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\arrayListNoSTL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\arrayListWithIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\arrayQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\arrayStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\binNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\binType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\booster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\bst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\chain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\chainNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\chainWithBinSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\chainWithIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\changeLength1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\circularListWithHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\currency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\currencyFriend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\currencyNew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\currencyOverload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\delete2dArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\derivedArrayStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\derivedArrayStackWithCatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\derivedLinkedStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\diagonalMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\edge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\equivNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\eventList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\extendedArrayList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\extendedChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\extendedLinearList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\fastUnionFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\graphChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\hashChains.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\hashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\heapSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\huffmanNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\indexOfMax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\insertionSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\job.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\linearList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\linkedDigraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\linkedGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\linkedMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\linkedQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\linkedStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\linkedWDigraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\linkedWGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\lowerTriangularMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\lptNodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\make2dArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\make2dArrayNoCatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\matrixElements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\matrixTerm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\matrixWithTranspose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\maxHblt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\maxHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\maxPriorityQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\mergeSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\minHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\minPriorityQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\myExceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\pairNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\quickSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\skipList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\skipNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\sortedChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\sparseMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\studentRecord1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\studentRecord2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\studentRecord3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\studentRecord4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\tridiagonalMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\unionFindNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\unweightedEdge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\vectorList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\vertexIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\weightedEdge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\codes\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\binarySearchTree.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\binarySearchTreeWithVisit.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\binaryTree.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryTree.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\binaryTreeNode.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\bsTree.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\completeWinnerTree.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\dBinarySearchTree.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\dBinarySearchTreeWithGE.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\indexedBSTree.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedBinaryTree.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\linkedBinaryTree.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\winnerTree.h">
+      <Filter>Header Files\tree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="codes\ProgramIndex.htm" />
+    <None Include="codes\codes\UpgradeLog.htm" />
+    <None Include="codes\codes\debug\BuildLog.htm" />
+  </ItemGroup>
+</Project>

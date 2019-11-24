@@ -25,6 +25,9 @@
     <Filter Include="头文件\queue">
       <UniqueIdentifier>{7f484c10-318a-49d1-b8fb-0b8d49ba4383}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\applation">
+      <UniqueIdentifier>{e0cadcf2-5b4b-4676-bfd3-5803a8d293f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chain.h">
@@ -75,6 +78,15 @@
     <ClInclude Include="maxWblt.h">
       <Filter>头文件\tree</Filter>
     </ClInclude>
+    <ClInclude Include="maxHeap.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="minHeap.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="minPriorityQueue.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DataFile.df">
@@ -85,7 +97,7 @@
     <ClCompile Include="binaryTreeNode.h">
       <Filter>头文件\tree</Filter>
     </ClCompile>
-    <ClCompile Include="maxWbltTest.cpp">
+    <ClCompile Include="sortFunctions.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

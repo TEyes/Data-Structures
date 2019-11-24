@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{36817A39-37DC-432F-BA02-9AE35DACEE87}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ArrayListMPQ.cpp" />
+    <ClCompile Include="codes\abcConstRef.cpp" />
+    <ClCompile Include="codes\abcException.cpp" />
+    <ClCompile Include="codes\abcExceptionChar.cpp" />
+    <ClCompile Include="codes\abcFloat.cpp" />
+    <ClCompile Include="codes\abcGeneral.cpp" />
+    <ClCompile Include="codes\abcInt.cpp" />
+    <ClCompile Include="codes\abcRef.cpp" />
+    <ClCompile Include="codes\abcTemplate.cpp" />
+    <ClCompile Include="codes\adjacencyDigraph.cpp" />
+    <ClCompile Include="codes\adjacencyGraph.cpp" />
+    <ClCompile Include="codes\adjacencyWDigraph.cpp" />
+    <ClCompile Include="codes\adjacencyWGraph.cpp" />
+    <ClCompile Include="codes\arrayIterator.cpp" />
+    <ClCompile Include="codes\arrayList.cpp" />
+    <ClCompile Include="codes\arrayListNoSTL.cpp" />
+    <ClCompile Include="codes\arrayListWithIterator.cpp" />
+    <ClCompile Include="codes\arrayQueue.cpp" />
+    <ClCompile Include="codes\arrayStack.cpp" />
+    <ClCompile Include="codes\averageSortTime.cpp" />
+    <ClCompile Include="codes\bestFit.cpp" />
+    <ClCompile Include="codes\binarySearch.cpp" />
+    <ClCompile Include="codes\binarySearchTree.cpp" />
+    <ClCompile Include="codes\binaryTreeTraversals.cpp" />
+    <ClCompile Include="codes\binsort1.cpp" />
+    <ClCompile Include="codes\binsort2.cpp" />
+    <ClCompile Include="codes\binsort3.cpp" />
+    <ClCompile Include="codes\booster.cpp" />
+    <ClCompile Include="codes\bst.cpp" />
+    <ClCompile Include="codes\bubbleSort.cpp" />
+    <ClCompile Include="codes\chain.cpp" />
+    <ClCompile Include="codes\chainWithIterator.cpp" />
+    <ClCompile Include="codes\circularListWithHeader.cpp" />
+    <ClCompile Include="codes\closestPoints.cpp" />
+    <ClCompile Include="codes\codes\codes.cpp" />
+    <ClCompile Include="codes\codes\stdafx.cpp" />
+    <ClCompile Include="codes\completeWinnerTree.cpp" />
+    <ClCompile Include="codes\componentLabeling.cpp" />
+    <ClCompile Include="codes\compress.cpp" />
+    <ClCompile Include="codes\crossings.cpp" />
+    <ClCompile Include="codes\currency.cpp" />
+    <ClCompile Include="codes\currencyFriend.cpp" />
+    <ClCompile Include="codes\currencyNew.cpp" />
+    <ClCompile Include="codes\currencyOverload.cpp" />
+    <ClCompile Include="codes\d.cpp" />
+    <ClCompile Include="codes\dBinarySearchTree.cpp" />
+    <ClCompile Include="codes\decompress.cpp" />
+    <ClCompile Include="codes\delete2dArray.cpp" />
+    <ClCompile Include="codes\derivedArrayStack.cpp" />
+    <ClCompile Include="codes\derivedArrayStackWithCatch.cpp" />
+    <ClCompile Include="codes\derivedLinkedStack.cpp" />
+    <ClCompile Include="codes\diagonalMatrix.cpp" />
+    <ClCompile Include="codes\earlyBubbleSort.cpp" />
+    <ClCompile Include="codes\earlySelectionSort.cpp" />
+    <ClCompile Include="codes\equivalenceClasses.cpp" />
+    <ClCompile Include="codes\extendedChain.cpp" />
+    <ClCompile Include="codes\factorial.cpp" />
+    <ClCompile Include="codes\fifoBBLoading1.cpp" />
+    <ClCompile Include="codes\fifoBBLoading2.cpp" />
+    <ClCompile Include="codes\fifoBBLoading3.cpp" />
+    <ClCompile Include="codes\firstFit.cpp" />
+    <ClCompile Include="codes\greedyLoading.cpp" />
+    <ClCompile Include="codes\hanoiRecursive.cpp" />
+    <ClCompile Include="codes\hanoiUsingStacks.cpp" />
+    <ClCompile Include="codes\hashChains.cpp" />
+    <ClCompile Include="codes\hashTable.cpp" />
+    <ClCompile Include="codes\heapSort.cpp" />
+    <ClCompile Include="codes\histogram.cpp" />
+    <ClCompile Include="codes\horner.cpp" />
+    <ClCompile Include="codes\huffmanTree.cpp" />
+    <ClCompile Include="codes\indexOfMax.cpp" />
+    <ClCompile Include="codes\inef.cpp" />
+    <ClCompile Include="codes\infix.cpp" />
+    <ClCompile Include="codes\insert.cpp" />
+    <ClCompile Include="codes\insertionSort1.cpp" />
+    <ClCompile Include="codes\insertionSort2.cpp" />
+    <ClCompile Include="codes\irregularArray.cpp" />
+    <ClCompile Include="codes\iterativeBTLoading.cpp" />
+    <ClCompile Include="codes\iterativeDPKnapsack.cpp" />
+    <ClCompile Include="codes\iterativeDPMatrixChain.cpp" />
+    <ClCompile Include="codes\leastCostBBBoard.cpp" />
+    <ClCompile Include="codes\linkedBinaryTree.cpp" />
+    <ClCompile Include="codes\linkedDigraph.cpp" />
+    <ClCompile Include="codes\linkedGraph.cpp" />
+    <ClCompile Include="codes\linkedMatrix.cpp" />
+    <ClCompile Include="codes\linkedQueue.cpp" />
+    <ClCompile Include="codes\linkedStack.cpp" />
+    <ClCompile Include="codes\linkedWDigraph.cpp" />
+    <ClCompile Include="codes\linkedWGraph.cpp" />
+    <ClCompile Include="codes\lowerTriangularMatrix.cpp" />
+    <ClCompile Include="codes\lptSchedule.cpp" />
+    <ClCompile Include="codes\machineShopSimulator.cpp" />
+    <ClCompile Include="codes\make2dArray.cpp" />
+    <ClCompile Include="codes\make2dArrayNoCatch.cpp" />
+    <ClCompile Include="codes\makeMatrixData.cpp" />
+    <ClCompile Include="codes\matrix.cpp" />
+    <ClCompile Include="codes\matrixAdd.cpp" />
+    <ClCompile Include="codes\matrixMultiply1.cpp" />
+    <ClCompile Include="codes\matrixMultiply2.cpp" />
+    <ClCompile Include="codes\matrixMultiply3.cpp" />
+    <ClCompile Include="codes\matrixTranspose.cpp" />
+    <ClCompile Include="codes\matrixWithTranspose.cpp" />
+    <ClCompile Include="codes\maxHblt.cpp" />
+    <ClCompile Include="codes\maxHeap.cpp" />
+    <ClCompile Include="codes\maxProfitBBKnapsack.cpp" />
+    <ClCompile Include="codes\maxProfitBBLoading.cpp" />
+    <ClCompile Include="codes\maze.cpp" />
+    <ClCompile Include="codes\mergeSort.cpp" />
+    <ClCompile Include="codes\minHeap.cpp" />
+    <ClCompile Include="codes\minmax1.cpp" />
+    <ClCompile Include="codes\minmax2.cpp" />
+    <ClCompile Include="codes\minMax3.cpp" />
+    <ClCompile Include="codes\noncrossingSubset.cpp" />
+    <ClCompile Include="codes\noRecomputationDPKnapsack.cpp" />
+    <ClCompile Include="codes\noRecomputationDPMatrixChain.cpp" />
+    <ClCompile Include="codes\noSwap.cpp" />
+    <ClCompile Include="codes\parenthesisMatching.cpp" />
+    <ClCompile Include="codes\permutations.cpp" />
+    <ClCompile Include="codes\permutationsSTL.cpp" />
+    <ClCompile Include="codes\polyEval.cpp" />
+    <ClCompile Include="codes\productSTL.cpp" />
+    <ClCompile Include="codes\quadraticRoots.cpp" />
+    <ClCompile Include="codes\quickSort.cpp" />
+    <ClCompile Include="codes\railroadWithNoQueues.cpp" />
+    <ClCompile Include="codes\railroadWithQueues.cpp" />
+    <ClCompile Include="codes\railroadWithStacks.cpp" />
+    <ClCompile Include="codes\rank.cpp" />
+    <ClCompile Include="codes\rankSort1.cpp" />
+    <ClCompile Include="codes\rankSort2.cpp" />
+    <ClCompile Include="codes\recursiveBTBoard.cpp" />
+    <ClCompile Include="codes\recursiveBTKnapsack.cpp" />
+    <ClCompile Include="codes\recursiveBTLoading1.cpp" />
+    <ClCompile Include="codes\recursiveBTLoading2.cpp" />
+    <ClCompile Include="codes\recursiveBTLoading3.cpp" />
+    <ClCompile Include="codes\recursiveDPKnapsack.cpp" />
+    <ClCompile Include="codes\recursiveDPMatrixChain.cpp" />
+    <ClCompile Include="codes\rSequentialSearch.cpp" />
+    <ClCompile Include="codes\rsum.cpp" />
+    <ClCompile Include="codes\rSumCount.cpp" />
+    <ClCompile Include="codes\select.cpp" />
+    <ClCompile Include="codes\selectionSort.cpp" />
+    <ClCompile Include="codes\sequentialSearch1.cpp" />
+    <ClCompile Include="codes\sequentialSearch2.cpp" />
+    <ClCompile Include="codes\skipList.cpp" />
+    <ClCompile Include="codes\sortedChain.cpp" />
+    <ClCompile Include="codes\sparseMatrix.cpp" />
+    <ClCompile Include="codes\stringToInt.cpp" />
+    <ClCompile Include="codes\sum.cpp" />
+    <ClCompile Include="codes\sumCount1.cpp" />
+    <ClCompile Include="codes\sumCount2.cpp" />
+    <ClCompile Include="codes\sumSTL.cpp" />
+    <ClCompile Include="codes\switchBox.cpp" />
+    <ClCompile Include="codes\testAllPairs.cpp" />
+    <ClCompile Include="codes\testBellmanFord.cpp" />
+    <ClCompile Include="codes\testBipartiteCover.cpp" />
+    <ClCompile Include="codes\testBTMaxClique.cpp" />
+    <ClCompile Include="codes\testBTSalesperson.cpp" />
+    <ClCompile Include="codes\testConnected.cpp" />
+    <ClCompile Include="codes\testFindPath.cpp" />
+    <ClCompile Include="codes\testGraphSearchMethods.cpp" />
+    <ClCompile Include="codes\testKruskal.cpp" />
+    <ClCompile Include="codes\testLabelComponents.cpp" />
+    <ClCompile Include="codes\testLeastCostBBSalesperson.cpp" />
+    <ClCompile Include="codes\testMaxProfitBBMaxClique.cpp" />
+    <ClCompile Include="codes\testShortestPaths.cpp" />
+    <ClCompile Include="codes\testTopologicalOrder.cpp" />
+    <ClCompile Include="codes\threeToLong.cpp" />
+    <ClCompile Include="codes\tileBoard.cpp" />
+    <ClCompile Include="codes\timeArray.cpp" />
+    <ClCompile Include="codes\timeBFS.cpp" />
+    <ClCompile Include="codes\timeChain.cpp" />
+    <ClCompile Include="codes\timeFastSquareMatrixMultiply1.cpp" />
+    <ClCompile Include="codes\timeFastSquareMatrixMultiply2.cpp" />
+    <ClCompile Include="codes\timeInsertionSort1.cpp" />
+    <ClCompile Include="codes\timeInsertionSort2.cpp" />
+    <ClCompile Include="codes\timeInsertionSort3.cpp" />
+    <ClCompile Include="codes\timeInsertionSort4.cpp" />
+    <ClCompile Include="codes\timeList.cpp" />
+    <ClCompile Include="codes\timeMatrix.cpp" />
+    <ClCompile Include="codes\timeMatrixMultiply1.cpp" />
+    <ClCompile Include="codes\timeSparseMatrix.cpp" />
+    <ClCompile Include="codes\timeStack.cpp" />
+    <ClCompile Include="codes\treeHistogram.cpp" />
+    <ClCompile Include="codes\tridiagonalMatrix.cpp" />
+    <ClCompile Include="codes\unionFindWithArrays.cpp" />
+    <ClCompile Include="codes\unionFindWithChains.cpp" />
+    <ClCompile Include="codes\unionFindWithCompaction.cpp" />
+    <ClCompile Include="codes\unionFindWithTrees.cpp" />
+    <ClCompile Include="codes\unionFindWithWeightingRule.cpp" />
+    <ClCompile Include="codes\vectorList.cpp" />
+    <ClCompile Include="codes\wireRouter.cpp" />
+    <ClCompile Include="MatrixTest.cpp" />
+    <ClCompile Include="maxHblt.cpp" />
+    <ClCompile Include="maxHbltTest.cpp" />
+    <ClCompile Include="maxWbltTest.cpp" />
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arrayList.h" />
+    <ClInclude Include="ArrayListMPQ.h" />
+    <ClInclude Include="arrayQueue.h" />
+    <ClInclude Include="binaryTree.h" />
+    <ClInclude Include="booster.h" />
+    <ClInclude Include="chain.h" />
+    <ClInclude Include="chainWithBinsort.h" />
+    <ClInclude Include="changeLength1D.h" />
+    <ClInclude Include="codes\adjacencyDigraph.h" />
+    <ClInclude Include="codes\adjacencyGraph.h" />
+    <ClInclude Include="codes\adjacencyMatrixIterator.h" />
+    <ClInclude Include="codes\adjacencyWDigraph.h" />
+    <ClInclude Include="codes\adjacencyWGraph.h" />
+    <ClInclude Include="codes\arrayList.h" />
+    <ClInclude Include="codes\arrayListNoSTL.h" />
+    <ClInclude Include="codes\arrayListWithIterator.h" />
+    <ClInclude Include="codes\arrayQueue.h" />
+    <ClInclude Include="codes\arrayStack.h" />
+    <ClInclude Include="codes\binarySearchTree.h" />
+    <ClInclude Include="codes\binarySearchTreeWithVisit.h" />
+    <ClInclude Include="codes\binaryTree.h" />
+    <ClInclude Include="codes\binaryTreeNode.h" />
+    <ClInclude Include="codes\binNode.h" />
+    <ClInclude Include="codes\binType.h" />
+    <ClInclude Include="codes\booster.h" />
+    <ClInclude Include="codes\bst.h" />
+    <ClInclude Include="codes\bsTree.h" />
+    <ClInclude Include="codes\chain.h" />
+    <ClInclude Include="codes\chainNode.h" />
+    <ClInclude Include="codes\chainWithBinSort.h" />
+    <ClInclude Include="codes\chainWithIterator.h" />
+    <ClInclude Include="codes\changeLength1D.h" />
+    <ClInclude Include="codes\circularListWithHeader.h" />
+    <ClInclude Include="codes\codes\stdafx.h" />
+    <ClInclude Include="codes\completeWinnerTree.h" />
+    <ClInclude Include="codes\container.h" />
+    <ClInclude Include="codes\currency.h" />
+    <ClInclude Include="codes\currencyFriend.h" />
+    <ClInclude Include="codes\currencyNew.h" />
+    <ClInclude Include="codes\currencyOverload.h" />
+    <ClInclude Include="codes\dBinarySearchTree.h" />
+    <ClInclude Include="codes\dBinarySearchTreeWithGE.h" />
+    <ClInclude Include="codes\delete2dArray.h" />
+    <ClInclude Include="codes\derivedArrayStack.h" />
+    <ClInclude Include="codes\derivedArrayStackWithCatch.h" />
+    <ClInclude Include="codes\derivedLinkedStack.h" />
+    <ClInclude Include="codes\diagonalMatrix.h" />
+    <ClInclude Include="codes\dictionary.h" />
+    <ClInclude Include="codes\edge.h" />
+    <ClInclude Include="codes\equivNode.h" />
+    <ClInclude Include="codes\eventList.h" />
+    <ClInclude Include="codes\extendedArrayList.h" />
+    <ClInclude Include="codes\extendedChain.h" />
+    <ClInclude Include="codes\extendedLinearList.h" />
+    <ClInclude Include="codes\fastUnionFind.h" />
+    <ClInclude Include="codes\graph.h" />
+    <ClInclude Include="codes\graphChain.h" />
+    <ClInclude Include="codes\hash.h" />
+    <ClInclude Include="codes\hashChains.h" />
+    <ClInclude Include="codes\hashTable.h" />
+    <ClInclude Include="codes\heapSort.h" />
+    <ClInclude Include="codes\huffmanNode.h" />
+    <ClInclude Include="codes\indexedBSTree.h" />
+    <ClInclude Include="codes\indexOfMax.h" />
+    <ClInclude Include="codes\insertionSort.h" />
+    <ClInclude Include="codes\job.h" />
+    <ClInclude Include="codes\linearList.h" />
+    <ClInclude Include="codes\linkedBinaryTree.h" />
+    <ClInclude Include="codes\linkedDigraph.h" />
+    <ClInclude Include="codes\linkedGraph.h" />
+    <ClInclude Include="codes\linkedMatrix.h" />
+    <ClInclude Include="codes\linkedQueue.h" />
+    <ClInclude Include="codes\linkedStack.h" />
+    <ClInclude Include="codes\linkedWDigraph.h" />
+    <ClInclude Include="codes\linkedWGraph.h" />
+    <ClInclude Include="codes\lowerTriangularMatrix.h" />
+    <ClInclude Include="codes\lptNodes.h" />
+    <ClInclude Include="codes\machine.h" />
+    <ClInclude Include="codes\make2dArray.h" />
+    <ClInclude Include="codes\make2dArrayNoCatch.h" />
+    <ClInclude Include="codes\matrix.h" />
+    <ClInclude Include="codes\matrixElements.h" />
+    <ClInclude Include="codes\matrixTerm.h" />
+    <ClInclude Include="codes\matrixWithTranspose.h" />
+    <ClInclude Include="codes\maxHblt.h" />
+    <ClInclude Include="codes\maxHeap.h" />
+    <ClInclude Include="codes\maxPriorityQueue.h" />
+    <ClInclude Include="codes\mergeSort.h" />
+    <ClInclude Include="codes\minHeap.h" />
+    <ClInclude Include="codes\minPriorityQueue.h" />
+    <ClInclude Include="codes\myExceptions.h" />
+    <ClInclude Include="codes\pairNode.h" />
+    <ClInclude Include="codes\player.h" />
+    <ClInclude Include="codes\position.h" />
+    <ClInclude Include="codes\queue.h" />
+    <ClInclude Include="codes\quickSort.h" />
+    <ClInclude Include="codes\select.h" />
+    <ClInclude Include="codes\skipList.h" />
+    <ClInclude Include="codes\skipNode.h" />
+    <ClInclude Include="codes\sortedChain.h" />
+    <ClInclude Include="codes\sparseMatrix.h" />
+    <ClInclude Include="codes\stack.h" />
+    <ClInclude Include="codes\studentRecord1.h" />
+    <ClInclude Include="codes\studentRecord2.h" />
+    <ClInclude Include="codes\studentRecord3.h" />
+    <ClInclude Include="codes\studentRecord4.h" />
+    <ClInclude Include="codes\task.h" />
+    <ClInclude Include="codes\tridiagonalMatrix.h" />
+    <ClInclude Include="codes\unionFindNode.h" />
+    <ClInclude Include="codes\unweightedEdge.h" />
+    <ClInclude Include="codes\vectorList.h" />
+    <ClInclude Include="codes\vertexIterator.h" />
+    <ClInclude Include="codes\weightedEdge.h" />
+    <ClInclude Include="codes\winnerTree.h" />
+    <ClInclude Include="doublyLinkedList.h" />
+    <ClInclude Include="linearList.h" />
+    <ClInclude Include="linkedBinaryTree.h" />
+    <ClInclude Include="matrix.h" />
+    <ClInclude Include="maxHblt.h" />
+    <ClInclude Include="maxPriorityQueue.h" />
+    <ClInclude Include="maxWblt.h" />
+    <ClInclude Include="myExceptions.h" />
+    <ClInclude Include="queue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="codes\codes\debug\BuildLog.htm" />
+    <None Include="codes\codes\UpgradeLog.htm" />
+    <None Include="codes\ProgramIndex.htm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
