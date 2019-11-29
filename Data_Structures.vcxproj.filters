@@ -51,12 +51,6 @@
     <ClInclude Include="matrix.h">
       <Filter>头文件\linearList</Filter>
     </ClInclude>
-    <ClInclude Include="maxHblt.h">
-      <Filter>头文件\tree</Filter>
-    </ClInclude>
-    <ClInclude Include="arrayQueue.h">
-      <Filter>头文件\tree</Filter>
-    </ClInclude>
     <ClInclude Include="binaryTree.h">
       <Filter>头文件\tree</Filter>
     </ClInclude>
@@ -69,22 +63,34 @@
     <ClInclude Include="linkedBinaryTree.h">
       <Filter>头文件\tree</Filter>
     </ClInclude>
-    <ClInclude Include="maxPriorityQueue.h">
-      <Filter>头文件\tree</Filter>
-    </ClInclude>
     <ClInclude Include="myExceptions.h">
       <Filter>头文件\other</Filter>
     </ClInclude>
+    <ClInclude Include="maxPriorityQueue.h">
+      <Filter>头文件\queue</Filter>
+    </ClInclude>
     <ClInclude Include="maxWblt.h">
-      <Filter>头文件\tree</Filter>
+      <Filter>头文件\queue</Filter>
     </ClInclude>
     <ClInclude Include="maxHeap.h">
-      <Filter>头文件\tree</Filter>
+      <Filter>头文件\queue</Filter>
     </ClInclude>
-    <ClInclude Include="minHeap.h">
-      <Filter>头文件\tree</Filter>
+    <ClInclude Include="maxHblt.h">
+      <Filter>头文件\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayQueue.h">
+      <Filter>头文件\queue</Filter>
     </ClInclude>
     <ClInclude Include="minPriorityQueue.h">
+      <Filter>头文件\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="minHeap.h">
+      <Filter>头文件\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="huffmanNode.h">
+      <Filter>头文件\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="huffmanTree.h">
       <Filter>头文件\tree</Filter>
     </ClInclude>
   </ItemGroup>
@@ -97,7 +103,7 @@
     <ClCompile Include="binaryTreeNode.h">
       <Filter>头文件\tree</Filter>
     </ClCompile>
-    <ClCompile Include="sortFunctions.cpp">
+    <ClCompile Include="huffmanTreeTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

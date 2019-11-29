@@ -131,6 +131,8 @@
     <ClInclude Include="chainWithBinsort.h" />
     <ClInclude Include="changeLength1D.h" />
     <ClInclude Include="doublyLinkedList.h" />
+    <ClInclude Include="huffmanNode.h" />
+    <ClInclude Include="huffmanTree.h" />
     <ClInclude Include="linearList.h" />
     <ClInclude Include="linkedBinaryTree.h" />
     <ClInclude Include="matrix.h" />
@@ -148,7 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="binaryTreeNode.h" />
-    <ClCompile Include="sortFunctions.cpp" />
+    <ClCompile Include="huffmanTreeTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
